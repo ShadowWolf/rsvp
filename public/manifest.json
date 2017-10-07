@@ -1,10 +1,15 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "BUTTS RSVP",
+  "name": "Wedding between Bryan and Melissa",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "/android-chrome-192x192.png",
       "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-256x256.png",
+      "sizes": "256x256",
       "type": "image/png"
     }
   ],
