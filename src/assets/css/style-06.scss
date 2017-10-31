@@ -1,0 +1,754 @@
+/*
+ *
+ * Project Name: Manten - Style 6
+ * URL: http://templatesuper.com
+ * Version: 1.1
+ *
+ * Author: Adnan
+ *
+ */
+
+// COLOR
+
+$primary-color: #9cd1d7;
+
+// IMPORT FONTS
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Pontano+Sans);
+
+// IMPORT ICONS
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+//PACE
+.pace {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+          pointer-events: none;
+
+  -webkit-pointer-events: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+
+  width: 100%;
+  height: 2px;
+
+  background: $primary-color;
+}
+
+body,
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: .6rem;
+
+  position: relative;
+
+  margin: 0;
+  padding: 0;
+
+  letter-spacing: 1px;
+
+  color: #828282;
+}
+
+a,
+a:visited,
+a:focus,
+a:active,
+a:hover,
+button:focus {
+  outline: 0 none !important;
+}
+
+/*
+  #########################################################################
+  #
+  header 06
+  #########################################################################
+*/
+
+
+.header-06 {
+  height: 100%;
+  .container-fluid {
+    padding: 0;
+  }
+  .flexslider .slides > li {
+    display: none;
+
+    width: 100%;
+    height: 100%;
+
+    background-position: center;
+    background-size: cover;
+  }
+  .flex-viewport,
+  .flexslider-container,
+  .flexslider .slides {
+    height: 100%;
+  }
+  ul.slides {
+    margin: 0;
+    padding: 0;
+  }
+  .flexslider {
+    overflow: hidden;
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    border: 0;
+  }
+  .flex-control-nav {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    padding-left: 0;
+
+    text-align: center;
+  }
+  .flex-control-nav li {
+    display: inline-block;
+    zoom: 1;
+
+    margin: 0 6px;
+
+    *display: inline;
+  }
+  .flex-control-paging li a {
+    display: block;
+
+    width: 6px;
+    height: 6px;
+
+    cursor: pointer;
+    text-indent: -9999px;
+
+    -webkit-border-radius: 20px;
+       -moz-border-radius: 20px;
+            border-radius: 20px;
+    background: #666;
+    background: rgba(0, 0, 0, .5);
+    -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, .3);
+       -moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, .3);
+            box-shadow: inset 0 0 3px rgba(0, 0, 0, .3);
+
+         -o-box-shadow: inset 0 0 3px rgba(0, 0, 0, .3);
+  }
+  .flex-control-paging li a:hover {
+    background: #333;
+    background: rgba(0, 0, 0, .7);
+  }
+  .flex-control-paging li a.flex-active {
+    cursor: default;
+
+    background: #000;
+    background: rgba(0, 0, 0, .9);
+  }
+  .caption {
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 350px;
+    height: auto;
+
+    color: #fff;
+    background-color: $primary-color;
+  }
+  .box {
+    position: absolute;
+    top: 50%;
+    left: 0;
+
+    width: 100%;
+    margin-top: -25px;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .caption h1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .caption h6 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .navbar {
+    border-color: transparent;
+    background: transparent;
+  }
+  .navbar .navbar-toggle {
+    border: transparent;
+  }
+  .navbar-header {
+    float: none;
+  }
+  .navbar-toggler {
+    font-size: 1.5rem;
+
+    position: absolute;
+    top: 10px;
+    right: 0;
+
+    color:#777;
+
+    display: block;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    display: block;
+    float: none!important;
+  }
+  .navbar-nav > li {
+    display: block;
+    float: none;
+  }
+  .collapsing,
+  .navbar-collapse.collapse.show {
+    position: absolute;
+    top: 45px;
+    right: 22px;
+
+    display: block !important;
+
+    width: 180px;
+
+    text-align: center;
+
+    background: $primary-color;
+  }
+  .collapse.show .navbar-nav > li,
+  .collapsing .navbar-nav > li {
+    display: block;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.show .navbar-nav > li,
+  .collapsing .navbar-nav > li {
+    display: block;
+
+    border-bottom: 1px dashed lighten($primary-color, 8%);
+  }
+  #navbar .navbar-nav li a.active,
+  #navbar .navbar-nav li a.active:focus,
+  #navbar .navbar-nav li a.active:hover {
+    color: #555;
+    background-color: #000;
+  }
+  #navbar .navbar-nav > li > a {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #fff;
+  }
+  #navbar .navbar-nav > li > a:hover {
+    color: #555;
+  }
+  #navbar .navbar-collapse,
+  #navbar .navbar-form {
+    border: none;
+  }
+  #navbar .navbar-toggle:focus,
+  #navbar .navbar-toggle:hover {
+    background: transparent;
+  }
+}
+
+/*
+  #########################################################################
+  #
+  Story 06
+  #########################################################################
+*/
+
+
+.story-06 {
+  padding: 120px 0;
+  h3 {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+
+    color: $primary-color;
+  }
+  h3,
+  h5 {
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  h5 {
+    color: #828282;
+  }
+  .title {
+    margin-bottom: 50px;
+  }
+  .content {
+    text-align: center;
+    p {
+      font-size: 1.6em;
+      line-height: 28px;
+    }
+    h5 {
+      font-size: 1.9em;
+
+      padding-top: 20px;
+
+      color: #828282;
+      border-top: 1px dashed #dedede;
+    }
+  }
+}
+
+/*
+  #########################################################################
+  #
+  wedding 06
+  #########################################################################
+*/
+
+
+.wedding-06 {
+  padding: 120px 0;
+
+  background: #f5f5f5;
+  img {
+    float: left;
+
+    max-width: 300px;
+  }
+  .place {
+    padding-top: 80px;
+    padding-left: 320px;
+    p {
+      font-size: 1.6em;
+      line-height: 28px;
+
+      margin-bottom: 0;
+    }
+    h3 {
+      font-size: 1.2em;
+
+      letter-spacing: 2px;
+      text-transform: uppercase;
+
+      color: #828282;
+    }
+    h4 {
+      font-family: 'Varela Round', sans-serif;
+      font-size: 1.8em;
+      font-weight: bold;
+
+      margin-bottom: 20px;
+
+      letter-spacing: 2px;
+      text-transform: uppercase;
+
+      color: $primary-color;
+    }
+    .btn-default {
+      margin-top: 60px;
+      padding: 10px 25px;
+
+      letter-spacing: 3px;
+
+      color: #fff;
+      border: 1px solid $primary-color;
+      border-radius: 0;
+      background: $primary-color;
+    }
+    .btn-default:hover {
+      color: $primary-color;
+      border: 1px solid $primary-color;
+      background: transparent;
+    }
+  }
+}
+
+/*
+  #########################################################################
+  #
+  Accomm 06
+  #########################################################################
+*/
+
+
+.accomm-06 {
+  width: 100%;
+  padding: 120px 0;
+  h3 {
+    font-size: 1.3em;
+
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  h5 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 3.5em;
+    font-weight: bold;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: $primary-color;
+  }
+  p {
+    font-size: 1.6em;
+    line-height: 28px;
+
+    margin-bottom: 0;
+  }
+  .btn-default {
+    margin-top: 20px;
+    padding: 10px 25px;
+
+    letter-spacing: 3px;
+
+    color: #fff;
+    border: 1px solid $primary-color;
+    border-radius: 0;
+    background: $primary-color;
+  }
+  .btn-default:hover {
+    color: $primary-color;
+    border: 1px solid $primary-color;
+    background: transparent;
+  }
+}
+
+/*
+  #########################################################################
+  #
+  Registry 06
+  #########################################################################
+*/
+
+
+.registry-06 {
+  padding: 120px 0;
+
+  background: #f5f5f5;
+  h3 {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+
+    margin-bottom: 50px;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #444;
+  }
+  .box {
+    text-align: center;
+    div {
+      line-height: 40px;
+
+      height: 40px;
+      margin-bottom: 60px;
+    }
+    img {
+      display: inline-block;
+
+      max-width: 225px;
+      max-height: 120%;
+    }
+    .btn-default {
+      display: block;
+
+      margin-top: 20px;
+      padding: 10px 25px;
+
+      letter-spacing: 3px;
+
+      color: #fff;
+      border: 1px solid $primary-color;
+      border-radius: 0;
+      background: $primary-color;
+    }
+    .btn-default:hover {
+      color: $primary-color;
+      border: 1px solid $primary-color;
+      background: transparent;
+    }
+  }
+}
+
+/*
+  #########################################################################
+  #
+  RSVP 06
+  #########################################################################
+*/
+
+
+.rsvp-06 {
+  width: 100%;
+  padding: 120px 0;
+
+  text-align: center;
+
+  color: #fff;
+  background-position: center;
+  h3 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2.7em;
+    font-weight: bold;
+
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    letter-spacing: 2px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 1.6em;
+    line-height: 28px;
+
+    margin-bottom: 40px;
+
+    letter-spacing: 1px;
+  }
+  .form-control {
+    height: 50px;
+
+    border-radius: 0;
+  }
+  .btn-default {
+    height: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+
+    letter-spacing: 2px;
+
+    color: #fff;
+    border: 1px solid $primary-color;
+    border-radius: 0;
+    background: $primary-color;
+  }
+  .btn-default:hover {
+    color: $primary-color;
+    border: 1px solid $primary-color;
+    background: transparent;
+  }
+  ::-webkit-input-placeholder {
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  :-moz-placeholder {
+    /* Firefox 18- */
+    text-align: center;
+  }
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    text-align: center;
+  }
+  :-ms-input-placeholder {
+    text-align: center;
+  }
+}
+
+footer {
+  line-height: 20px;
+
+  padding: 50px 0;
+
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: #828282;
+}
+
+.scroll-to-top a {
+  font-size: 20px;
+  line-height: 40px;
+
+  display: block;
+
+  width: 40px;
+  height: 40px;
+
+  color: #fff;
+}
+
+.scroll-to-top {
+  position: fixed;
+  z-index: 9999;
+  right: 20px;
+  bottom: 20px;
+
+  -webkit-transition: opacity .5s;
+          transition: opacity .5s;
+  text-align: center;
+
+  opacity: 0;
+  border-radius: 4px;
+  background: $primary-color;
+
+  filter: alpha(opacity=0);
+}
+
+.scroll-to-top.affix {
+  opacity: .5;
+
+  filter: alpha(opacity=50);
+}
+
+.affix {
+  position: fixed;
+}
+
+/*
+  ---------------------------------------------------
+  Large Devices, Wide
+  Screens
+  -----------------------------------------------------
+*/
+
+
+@media only screen and (max-width: 1200px) {
+}
+
+/*
+  --------------------------------------------------
+  Medium Devices,
+  Desktops
+  ----------------------------------------------------
+*/
+
+
+@media only screen and (max-width: 992px) {
+}
+
+/*
+  -------------------------------------------------
+  Small Devices,
+  Tablets
+  ---------------------------------------------------
+*/
+
+
+@media only screen and (max-width: 768px) {
+  .header-06 {
+    .caption h1 {
+      font-size: 2.5em;
+
+      color: #fff;
+    }
+    .caption h6 {
+      color: #fff;
+      text-shadow: none;
+    }
+  }
+
+  // WEDDING 06
+  .wedding-06 {
+    .col-md-6 {
+      text-align: center;
+    }
+    img {
+      display: inline-block;
+      float: none;
+
+      max-width: 80%;
+    }
+    .place {
+      padding: 20px 0 0;
+    }
+  }
+
+  // REGISTRY 06
+  .registry-06 {
+    .box div {
+      margin-bottom: 20px;
+    }
+    .box .btn-default {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+/*
+  ------------------------------------------------
+  Mobile
+  -------------------------------------------------
+*/
+
+
+@media only screen and (max-width: 480px) {
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .header-06 {
+    .caption {
+      width: 100%;
+    }
+    .caption h1 {
+      font-size: 2em;
+    }
+    .caption h6 {
+      text-shadow: none;
+    }
+  }
+
+  // WEDDING 06
+  .wedding-06 {
+    .col-md-6 {
+      text-align: center;
+    }
+    img {
+      display: inline-block;
+      float: none;
+
+      max-width: 80%;
+    }
+    .place {
+      padding: 20px 0 0;
+    }
+  }
+
+  // REGISTRY 06
+  .registry-06 {
+    .box div {
+      margin-bottom: 20px;
+    }
+    .box .btn-default {
+      margin-bottom: 30px;
+    }
+  }
+
+  .pace .pace-progress {
+    background-color: #fff;
+  }
+}

@@ -1,0 +1,519 @@
+/*
+ *
+ * Project Name: Manten - Style 6
+ * URL: http://templatesuper.com
+ * Version: 1.1
+ *
+ * Author: Adnan
+ *
+ */
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Pontano+Sans);
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.pace {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  -webkit-pointer-events: none; }
+
+.pace-inactive {
+  display: none; }
+
+.pace .pace-progress {
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 2px;
+  background: #9cd1d7; }
+
+body,
+html {
+  height: 100%;
+  min-height: 100%; }
+
+body {
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: .6rem;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+  color: #828282; }
+
+a,
+a:visited,
+a:focus,
+a:active,
+a:hover,
+button:focus {
+  outline: 0 none !important; }
+
+/*
+  #########################################################################
+  #
+  header 06
+  #########################################################################
+*/
+.header-06 {
+  height: 100%; }
+  .header-06 .container-fluid {
+    padding: 0; }
+  .header-06 .flexslider .slides > li {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover; }
+  .header-06 .flex-viewport,
+  .header-06 .flexslider-container,
+  .header-06 .flexslider .slides {
+    height: 100%; }
+  .header-06 ul.slides {
+    margin: 0;
+    padding: 0; }
+  .header-06 .flexslider {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0; }
+  .header-06 .flex-control-nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-left: 0;
+    text-align: center; }
+  .header-06 .flex-control-nav li {
+    display: inline-block;
+    zoom: 1;
+    margin: 0 6px;
+    *display: inline; }
+  .header-06 .flex-control-paging li a {
+    display: block;
+    width: 6px;
+    height: 6px;
+    cursor: pointer;
+    text-indent: -9999px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: #666;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3); }
+  .header-06 .flex-control-paging li a:hover {
+    background: #333;
+    background: rgba(0, 0, 0, 0.7); }
+  .header-06 .flex-control-paging li a.flex-active {
+    cursor: default;
+    background: #000;
+    background: rgba(0, 0, 0, 0.9); }
+  .header-06 .caption {
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 350px;
+    height: auto;
+    color: #fff;
+    background-color: #9cd1d7; }
+  .header-06 .box {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    margin-top: -25px;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  .header-06 .caption h1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  .header-06 .caption h6 {
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  .header-06 .navbar {
+    border-color: transparent;
+    background: transparent; }
+  .header-06 .navbar .navbar-toggle {
+    border: transparent; }
+  .header-06 .navbar-header {
+    float: none; }
+  .header-06 .navbar-toggler {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: #777;
+    display: block; }
+  .header-06 .navbar-collapse.collapse {
+    display: none !important; }
+  .header-06 .navbar-nav {
+    display: block;
+    float: none !important; }
+  .header-06 .navbar-nav > li {
+    display: block;
+    float: none; }
+  .header-06 .collapsing,
+  .header-06 .navbar-collapse.collapse.show {
+    position: absolute;
+    top: 45px;
+    right: 22px;
+    display: block !important;
+    width: 180px;
+    text-align: center;
+    background: #9cd1d7; }
+  .header-06 .collapse.show .navbar-nav > li,
+  .header-06 .collapsing .navbar-nav > li {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .header-06 .collapse.show .navbar-nav > li,
+  .header-06 .collapsing .navbar-nav > li {
+    display: block;
+    border-bottom: 1px dashed #b9dfe3; }
+  .header-06 #navbar .navbar-nav li a.active,
+  .header-06 #navbar .navbar-nav li a.active:focus,
+  .header-06 #navbar .navbar-nav li a.active:hover {
+    color: #555;
+    background-color: #000; }
+  .header-06 #navbar .navbar-nav > li > a {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff; }
+  .header-06 #navbar .navbar-nav > li > a:hover {
+    color: #555; }
+  .header-06 #navbar .navbar-collapse,
+  .header-06 #navbar .navbar-form {
+    border: none; }
+  .header-06 #navbar .navbar-toggle:focus,
+  .header-06 #navbar .navbar-toggle:hover {
+    background: transparent; }
+
+/*
+  #########################################################################
+  #
+  Story 06
+  #########################################################################
+*/
+.story-06 {
+  padding: 120px 0; }
+  .story-06 h3 {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    color: #9cd1d7; }
+  .story-06 h3,
+  .story-06 h5 {
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  .story-06 h5 {
+    color: #828282; }
+  .story-06 .title {
+    margin-bottom: 50px; }
+  .story-06 .content {
+    text-align: center; }
+    .story-06 .content p {
+      font-size: 1.6em;
+      line-height: 28px; }
+    .story-06 .content h5 {
+      font-size: 1.9em;
+      padding-top: 20px;
+      color: #828282;
+      border-top: 1px dashed #dedede; }
+
+/*
+  #########################################################################
+  #
+  wedding 06
+  #########################################################################
+*/
+.wedding-06 {
+  padding: 120px 0;
+  background: #f5f5f5; }
+  .wedding-06 img {
+    float: left;
+    max-width: 300px; }
+  .wedding-06 .place {
+    padding-top: 80px;
+    padding-left: 320px; }
+    .wedding-06 .place p {
+      font-size: 1.6em;
+      line-height: 28px;
+      margin-bottom: 0; }
+    .wedding-06 .place h3 {
+      font-size: 1.2em;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #828282; }
+    .wedding-06 .place h4 {
+      font-family: 'Varela Round', sans-serif;
+      font-size: 1.8em;
+      font-weight: bold;
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #9cd1d7; }
+    .wedding-06 .place .btn-default {
+      margin-top: 60px;
+      padding: 10px 25px;
+      letter-spacing: 3px;
+      color: #fff;
+      border: 1px solid #9cd1d7;
+      border-radius: 0;
+      background: #9cd1d7; }
+    .wedding-06 .place .btn-default:hover {
+      color: #9cd1d7;
+      border: 1px solid #9cd1d7;
+      background: transparent; }
+
+/*
+  #########################################################################
+  #
+  Accomm 06
+  #########################################################################
+*/
+.accomm-06 {
+  width: 100%;
+  padding: 120px 0; }
+  .accomm-06 h3 {
+    font-size: 1.3em;
+    text-align: center;
+    letter-spacing: 2px; }
+  .accomm-06 h5 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 3.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #9cd1d7; }
+  .accomm-06 p {
+    font-size: 1.6em;
+    line-height: 28px;
+    margin-bottom: 0; }
+  .accomm-06 .btn-default {
+    margin-top: 20px;
+    padding: 10px 25px;
+    letter-spacing: 3px;
+    color: #fff;
+    border: 1px solid #9cd1d7;
+    border-radius: 0;
+    background: #9cd1d7; }
+  .accomm-06 .btn-default:hover {
+    color: #9cd1d7;
+    border: 1px solid #9cd1d7;
+    background: transparent; }
+
+/*
+  #########################################################################
+  #
+  Registry 06
+  #########################################################################
+*/
+.registry-06 {
+  padding: 120px 0;
+  background: #f5f5f5; }
+  .registry-06 h3 {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #444; }
+  .registry-06 .box {
+    text-align: center; }
+    .registry-06 .box div {
+      line-height: 40px;
+      height: 40px;
+      margin-bottom: 60px; }
+    .registry-06 .box img {
+      display: inline-block;
+      max-width: 225px;
+      max-height: 120%; }
+    .registry-06 .box .btn-default {
+      display: block;
+      margin-top: 20px;
+      padding: 10px 25px;
+      letter-spacing: 3px;
+      color: #fff;
+      border: 1px solid #9cd1d7;
+      border-radius: 0;
+      background: #9cd1d7; }
+    .registry-06 .box .btn-default:hover {
+      color: #9cd1d7;
+      border: 1px solid #9cd1d7;
+      background: transparent; }
+
+/*
+  #########################################################################
+  #
+  RSVP 06
+  #########################################################################
+*/
+.rsvp-06 {
+  width: 100%;
+  padding: 120px 0;
+  text-align: center;
+  color: #fff;
+  background-position: center; }
+  .rsvp-06 h3 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2.7em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    letter-spacing: 1px;
+    text-transform: uppercase; }
+  .rsvp-06 p {
+    font-size: 1.6em;
+    line-height: 28px;
+    margin-bottom: 40px;
+    letter-spacing: 1px; }
+  .rsvp-06 .form-control {
+    height: 50px;
+    border-radius: 0; }
+  .rsvp-06 .btn-default {
+    height: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    letter-spacing: 2px;
+    color: #fff;
+    border: 1px solid #9cd1d7;
+    border-radius: 0;
+    background: #9cd1d7; }
+  .rsvp-06 .btn-default:hover {
+    color: #9cd1d7;
+    border: 1px solid #9cd1d7;
+    background: transparent; }
+  .rsvp-06 ::-webkit-input-placeholder {
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  .rsvp-06 :-moz-placeholder {
+    /* Firefox 18- */
+    text-align: center; }
+  .rsvp-06 ::-moz-placeholder {
+    /* Firefox 19+ */
+    text-align: center; }
+  .rsvp-06 :-ms-input-placeholder {
+    text-align: center; }
+
+footer {
+  line-height: 20px;
+  padding: 50px 0;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #828282; }
+
+.scroll-to-top a {
+  font-size: 20px;
+  line-height: 40px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  color: #fff; }
+
+.scroll-to-top {
+  position: fixed;
+  z-index: 9999;
+  right: 20px;
+  bottom: 20px;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+  text-align: center;
+  opacity: 0;
+  border-radius: 4px;
+  background: #9cd1d7;
+  filter: alpha(opacity=0); }
+
+.scroll-to-top.affix {
+  opacity: .5;
+  filter: alpha(opacity=50); }
+
+.affix {
+  position: fixed; }
+
+/*
+  ---------------------------------------------------
+  Large Devices, Wide
+  Screens
+  -----------------------------------------------------
+*/
+/*
+  --------------------------------------------------
+  Medium Devices,
+  Desktops
+  ----------------------------------------------------
+*/
+/*
+  -------------------------------------------------
+  Small Devices,
+  Tablets
+  ---------------------------------------------------
+*/
+@media only screen and (max-width: 768px) {
+  .header-06 .caption h1 {
+    font-size: 2.5em;
+    color: #fff; }
+  .header-06 .caption h6 {
+    color: #fff;
+    text-shadow: none; }
+
+  .wedding-06 .col-md-6 {
+    text-align: center; }
+  .wedding-06 img {
+    display: inline-block;
+    float: none;
+    max-width: 80%; }
+  .wedding-06 .place {
+    padding: 20px 0 0; }
+
+  .registry-06 .box div {
+    margin-bottom: 20px; }
+  .registry-06 .box .btn-default {
+    margin-bottom: 30px; } }
+/*
+  ------------------------------------------------
+  Mobile
+  -------------------------------------------------
+*/
+@media only screen and (max-width: 480px) {
+  .container {
+    padding-right: 20px;
+    padding-left: 20px; }
+
+  .header-06 .caption {
+    width: 100%; }
+  .header-06 .caption h1 {
+    font-size: 2em; }
+  .header-06 .caption h6 {
+    text-shadow: none; }
+
+  .wedding-06 .col-md-6 {
+    text-align: center; }
+  .wedding-06 img {
+    display: inline-block;
+    float: none;
+    max-width: 80%; }
+  .wedding-06 .place {
+    padding: 20px 0 0; }
+
+  .registry-06 .box div {
+    margin-bottom: 20px; }
+  .registry-06 .box .btn-default {
+    margin-bottom: 30px; }
+
+  .pace .pace-progress {
+    background-color: #fff; } }
+
+/*# sourceMappingURL=style-06.css.map */
