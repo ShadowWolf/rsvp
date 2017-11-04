@@ -10,6 +10,7 @@ class OurPictures extends Component {
         {
             src: banshee1,
             caption: 'Banshee!'
+
         },
         {
             src: banshee2,

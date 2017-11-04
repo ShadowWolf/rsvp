@@ -8,7 +8,6 @@ class HeaderSection extends Component {
     render() {
         return (
             <Section id="header">
-                <Navigation />
                 <div className="caption">
                     <div className="text-center">
                         <div className="box">

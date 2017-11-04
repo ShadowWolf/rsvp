@@ -27,7 +27,7 @@
   right: 100%;
   width: 100%;
   height: 2px;
-  background: #9cd1d7; }
+  background: #d0ffe5; }
 
 body,
 html {
@@ -120,10 +120,10 @@ button:focus {
     top: 0;
     bottom: 0;
     left: 0;
-    width: 350px;
+    width: 25%;
     height: auto;
-    color: #fff;
-    background-color: #9cd1d7; }
+    color: #19254d;
+    background-color: #d0ffe5; }
   .header-06 .box {
     position: absolute;
     top: 50%;
@@ -171,7 +171,7 @@ button:focus {
     display: block !important;
     width: 180px;
     text-align: center;
-    background: #9cd1d7; }
+    background: #d0ffe5; }
   .header-06 .collapse.show .navbar-nav > li,
   .header-06 .collapsing .navbar-nav > li {
     display: block;
@@ -180,7 +180,7 @@ button:focus {
   .header-06 .collapse.show .navbar-nav > li,
   .header-06 .collapsing .navbar-nav > li {
     display: block;
-    border-bottom: 1px dashed #b9dfe3; }
+    border-bottom: 1px dashed #f9fffc; }
   .header-06 #navbar .navbar-nav li a.active,
   .header-06 #navbar .navbar-nav li a.active:focus,
   .header-06 #navbar .navbar-nav li a.active:hover {
@@ -210,7 +210,7 @@ button:focus {
   .story-06 h3 {
     font-family: 'Varela Round', sans-serif;
     font-weight: bold;
-    color: #9cd1d7; }
+    color: #d0ffe5; }
   .story-06 h3,
   .story-06 h5 {
     text-align: center;
@@ -262,18 +262,18 @@ button:focus {
       margin-bottom: 20px;
       letter-spacing: 2px;
       text-transform: uppercase;
-      color: #9cd1d7; }
+      color: #d0ffe5; }
     .wedding-06 .place .btn-default {
       margin-top: 60px;
       padding: 10px 25px;
       letter-spacing: 3px;
       color: #fff;
-      border: 1px solid #9cd1d7;
+      border: 1px solid #d0ffe5;
       border-radius: 0;
-      background: #9cd1d7; }
+      background: #d0ffe5; }
     .wedding-06 .place .btn-default:hover {
-      color: #9cd1d7;
-      border: 1px solid #9cd1d7;
+      color: #d0ffe5;
+      border: 1px solid #d0ffe5;
       background: transparent; }
 
 /*
@@ -295,7 +295,7 @@ button:focus {
     font-weight: bold;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #9cd1d7; }
+    color: #d0ffe5; }
   .accomm-06 p {
     font-size: 1.6em;
     line-height: 28px;
@@ -305,12 +305,12 @@ button:focus {
     padding: 10px 25px;
     letter-spacing: 3px;
     color: #fff;
-    border: 1px solid #9cd1d7;
+    border: 1px solid #d0ffe5;
     border-radius: 0;
-    background: #9cd1d7; }
+    background: #d0ffe5; }
   .accomm-06 .btn-default:hover {
-    color: #9cd1d7;
-    border: 1px solid #9cd1d7;
+    color: #d0ffe5;
+    border: 1px solid #d0ffe5;
     background: transparent; }
 
 /*
@@ -345,12 +345,12 @@ button:focus {
       padding: 10px 25px;
       letter-spacing: 3px;
       color: #fff;
-      border: 1px solid #9cd1d7;
+      border: 1px solid #d0ffe5;
       border-radius: 0;
-      background: #9cd1d7; }
+      background: #d0ffe5; }
     .registry-06 .box .btn-default:hover {
-      color: #9cd1d7;
-      border: 1px solid #9cd1d7;
+      color: #d0ffe5;
+      border: 1px solid #d0ffe5;
       background: transparent; }
 
 /*
@@ -388,12 +388,12 @@ button:focus {
     padding-left: 50px;
     letter-spacing: 2px;
     color: #fff;
-    border: 1px solid #9cd1d7;
+    border: 1px solid #d0ffe5;
     border-radius: 0;
-    background: #9cd1d7; }
+    background: #d0ffe5; }
   .rsvp-06 .btn-default:hover {
-    color: #9cd1d7;
-    border: 1px solid #9cd1d7;
+    color: #d0ffe5;
+    border: 1px solid #d0ffe5;
     background: transparent; }
   .rsvp-06 ::-webkit-input-placeholder {
     text-align: center;
@@ -433,7 +433,7 @@ footer {
   text-align: center;
   opacity: 0;
   border-radius: 4px;
-  background: #9cd1d7;
+  background: #d0ffe5;
   filter: alpha(opacity=0); }
 
 .scroll-to-top.affix {

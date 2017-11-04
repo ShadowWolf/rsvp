@@ -10,7 +10,8 @@
 
 // COLOR
 
-$primary-color: #9cd1d7;
+$primary-color: #d0ffe5;
+$text-color: #19254d;
 
 // IMPORT FONTS
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
@@ -169,10 +170,10 @@ button:focus {
     bottom: 0;
     left: 0;
 
-    width: 350px;
+    width: 25%;
     height: auto;
 
-    color: #fff;
+    color: $text-color;
     background-color: $primary-color;
   }
   .box {

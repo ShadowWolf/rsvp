@@ -9,6 +9,7 @@ class Navigation extends Component {
         "Wedding",
         "Accommodation",
         "Registry",
+        "Beepo",
         "RSVP"
     ];
 
@@ -38,7 +39,7 @@ class Navigation extends Component {
         return (
             <div className="container-fluid">
                 <Navbar>
-                    <NavbarToggler onClick={this.toggleNavbar}>
+                    <NavbarToggler onClick={this.toggleNavbar} >
                         <i className="ion-android-menu"></i>
                     </NavbarToggler>
                     <Collapse isOpen={!this.state.collapsed} navbar id="navbar">
