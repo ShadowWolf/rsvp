@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import {Navbar, Nav, NavbarToggler, Collapse, NavLink, NavItem} from 'reactstrap';
+import {Navbar, Nav, NavbarToggler, Collapse, NavLink, NavItem, Container, NavbarBrand} from 'reactstrap';
+import './navigation.css';
 
 class Navigation extends Component {
 
@@ -37,18 +38,19 @@ class Navigation extends Component {
         ));
 
         return (
-            <div className="container-fluid">
-                <Navbar>
-                    <NavbarToggler onClick={this.toggleNavbar} >
-                        <i className="ion-android-menu"></i>
+            <Container fluid>
+                <Navbar fixed='top' >
+                    <NavbarBrand href="/" className="ml-auto"> </NavbarBrand>
+                    <NavbarToggler onClick={this.toggleNavbar} className="ml-auto">
+                        <i className="oi oi-menu" title="menu" aria-hidden="true" />
                     </NavbarToggler>
-                    <Collapse isOpen={!this.state.collapsed} navbar id="navbar">
+                    <Collapse isOpen={!this.state.collapsed} id="navbar">
                         <Nav navbar>
                             {items}
                         </Nav>
                     </Collapse>
                 </Navbar>
-            </div>
+            </Container>
         );
     }
 }

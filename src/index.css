@@ -1,23 +1,12 @@
-body,
-html {
-  height: 100%;
-  min-height: 100%;
-}
-
 body {
   font-family: 'Pontano Sans', sans-serif;
   font-size: .6rem;
-
-  position: relative;
-
-  margin: 0;
-  padding: 0;
-
-  letter-spacing: 1px;
-
   color: #828282;
-}
 
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
+}
 
 a,
 a:visited,
@@ -26,4 +15,12 @@ a:active,
 a:hover,
 button:focus {
   outline: 0 none !important;
+}
+
+.container-fluid {
+  max-width: 1920px;
+}
+
+.container {
+  max-width: 1920px;
 }

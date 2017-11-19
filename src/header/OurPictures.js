@@ -9,16 +9,15 @@ class OurPictures extends Component {
     pictureItems = [
         {
             src: banshee1,
-            caption: 'Banshee!'
-
+            caption: '',
         },
         {
             src: banshee2,
-            caption: 'Banshee!'
+            caption: '',
         },
         {
             src: banshee3,
-            caption: 'Banshee!'
+            caption: '',
         }
     ];
 
