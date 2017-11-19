@@ -10,11 +10,11 @@ class HeaderSection extends Component {
             <Section id="header">
                 <Container>
                     <Row className="h-100">
-                        <Col className="header-box my-auto" xs="2">
+                        <Col className="header-box my-auto" md="3" xs="5">
                             <h1>Bryan & Melissa</h1>
                             <h6>August 18th, 2018 - St Paul, MN</h6>
                         </Col>
-                        <Col xs="10">
+                        <Col md="9" xs="7">
                             <OurPictures/>
                         </Col>
                     </Row >
