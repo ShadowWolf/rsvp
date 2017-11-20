@@ -8,9 +8,9 @@ class HeaderSection extends Component {
     render() {
         return (
             <Section id="header">
-                <Container>
+                <Container className="">
                     <Row className="h-100">
-                        <Col className="header-box my-auto" md="3" xs="5">
+                        <Col className="header-box header-container" md="3" xs="5">
                             <h1>Bryan & Melissa</h1>
                             <h6>August 18th, 2018 - St Paul, MN</h6>
                         </Col>

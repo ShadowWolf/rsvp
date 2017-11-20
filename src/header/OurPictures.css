@@ -1,7 +1,8 @@
 .carousel .slide > li {
     display: none;
+    max-height: 960px;
 }
 
 .carousel-item {
-
+    max-height: 960px;
 }
